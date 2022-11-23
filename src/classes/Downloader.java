@@ -10,6 +10,7 @@ import java.nio.file.Path;
 
 public class Downloader {
     private final Supporter supporter;
+
     private URLConnection urlConnection;
 
     private Downloader() {
